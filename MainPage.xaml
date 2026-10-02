@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<mcv:MyTabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mcv="clr-namespace:MauiCarouselView"
+             x:Class="MauiCarouselView.MainPage">
+
+    <mcv:MyTabbedPage.Tabs>
+        <mcv:MyTab>
+            <mcv:Item1View />
+        </mcv:MyTab>
+        <mcv:MyTab>
+            <mcv:Item2View />
+        </mcv:MyTab>
+    </mcv:MyTabbedPage.Tabs>
+
+</mcv:MyTabbedPage>
